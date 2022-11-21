@@ -43,6 +43,14 @@ h2 {
     width: 15rem;
 }
 
+.imagesocial {
+    display: flex;
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+}
+
+
 .innershadow {
     font-size: 16px;
     color: #999;
@@ -79,6 +87,10 @@ h2 {
     margin-right: 20px;
 }
 
+.aboutus {
+    margin-top: 2rem;
+}
+
 footer {
     background-color: lightskyblue;
 }
@@ -89,5 +101,5 @@ h4 {
 
 .footersocials {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
