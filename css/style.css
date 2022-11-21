@@ -4,12 +4,11 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: aliceblue;
 }
 
 header {
     text-align: center;
-    display: grid;
 }
 
 h1 {
@@ -19,10 +18,6 @@ h1 {
 h2 {
     font-size: 1.5rem;
     text-align: center;
-}
-
-.grid-section-1 {
-    display: grid;
 }
 
 .destacados {
@@ -88,8 +83,20 @@ h2 {
 }
 
 .aboutus {
+    display: flex;
     margin-top: 2rem;
 }
+
+.aboutusimg {
+    height: 30rem;
+    width: 30rem;
+
+}
+
+
+
+
+
 
 footer {
     background-color: lightskyblue;
