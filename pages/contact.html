@@ -7,20 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Padel Style</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
         <h1>Padel Style</h1>
-        <nav class="nav-list-padre">
-            <ul class="nav-list">
-                <li><a class="active" href="../index.html">Home</a></li>
-                <li><a href="./tienda.html">Tienda</a></li>
-                <li><a href="./about.html">Sobre nosotros</a></li>
-                <li><a href="./qanda.html">Preguntas frecuentes</a></li>
-                <li><a href="./contact.html">Contáctanos</a></li>
-            </ul>
-            <input type="text" class="buscarnav" placeholder="Buscar..">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="../index.html">Inico</a>
+                <a href="./tienda.html">Tienda</a>
+                <a href="javascript:void(0);" class="active">Contactanos</a>
+                <a href="./qanda.html">Preguntas frecuentes</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </nav>
     </header>
 
@@ -37,19 +39,20 @@
         </div>
         <div class="footersocials">
             <div class="socialsf">
-                <input type="image" src="../img/instagram negro.png" alt="instagram" width="40" height="40">
+                <img class="imagesocial" src="../img/ig.webp" alt="instagram">
             </div>
             <div class="socialsf">
-                <input type="image" src="../img/instagram negro.png" alt="instagram" width="40" height="40">
+                <img class="imagesocial" src="../img/ig.webp" alt=" instagram">
             </div>
             <div class="socialsf">
-                <input type="image" src="../img/instagram negro.png" alt="instagram" width="40" height="40">
+                <img class="imagesocial" src="../img/ig.webp" alt="instagram">
             </div>
             <div class="socialsf">
-                <input type="image" src="../img/instagram negro.png" alt="instagram" width="40" height="40">
+                <img class="imagesocial" src="../img/ig.webp" alt="instagram">
             </div>
         </div>
     </footer>
+    <script src="../js/nav-responsive.js"></script>
 </body>
 
 </html>
