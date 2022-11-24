@@ -32,6 +32,7 @@ h4 {
 
 p {
     font-size: 2rem;
+    text-align: center;
 }
 
 .topnav {
@@ -144,6 +145,46 @@ p {
     }
 
 }
+
+
+
+form {
+    height: auto;
+    width: 60vh;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer {
