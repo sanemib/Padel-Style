@@ -1,14 +1,15 @@
-@import "./utils/variables"
 
-@import "./base/base"
+@import "./utils/variables";
 
-@import "./components/nav"
-@import "./components/destacadas"
-@import "./components/aus"
-@import "./components/footer"
-@import "./components/footer"
+@import "./base/base";
 
-@import "./pages/index"
-@import "./pages/tienda"
-@import "./pages/contacto"
-@import "./pages/qanda"
+@import "./components/nav";
+@import "./components/destacadas";
+@import "./components/aus";
+@import "./components/footer";
+@import "./components/footer";
+
+@import "./pages/index";
+@import "./pages/tienda";
+@import "./pages/contacto";
+@import "./pages/qanda";
