@@ -1,0 +1,22 @@
+.aboutus {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.aboutustext {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutusimg {
+    height: 30rem;
+    width: 30rem;
+}
+
+@media screen and (max-width: 767px) {
+
+    .aboutusimg {
+        display: none;
+    }
+
+}
