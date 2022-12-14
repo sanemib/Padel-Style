@@ -1,22 +1,39 @@
 .aboutus {
     display: flex;
+    flex-direction: row;
+    background-color: $color-principal;
+    align-items: center;
+    width: 90vw;
+    height: 70vh;
+    margin: 0 auto;
+    margin-bottom: 2rem;
     margin-top: 2rem;
+    border-radius: 1rem;
 }
 
 .aboutustext {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: $color-font-color;
 }
 
 .aboutusimg {
-    height: 30rem;
-    width: 30rem;
+    display: flex;
+    height: 60vh;
 }
 
 @media screen and (max-width: 767px) {
 
+    .aboutus {
+        height: auto;
+    }
     .aboutusimg {
         display: none;
+    }
+    .aboutustext {
+        margin: 1rem;
     }
 
 }
