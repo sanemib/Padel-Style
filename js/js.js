@@ -7,7 +7,7 @@ function myFunction() {
     }
 }
 
-
+//separador
 
 const action = document.querySelector("#cart-action");
 const actionBadge = document.querySelector("#cart-action-badge");
@@ -61,3 +61,5 @@ addToCartButtons.forEach((button) => {
 actionBadge.addEventListener("animationend", (event) => {
     actionBadge.classList.remove("add");
 });
+
+//separador
