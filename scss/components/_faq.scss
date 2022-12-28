@@ -1,0 +1,19 @@
+.faq-ans {
+    font-size: 1rem;
+}
+
+.accordion-button:focus {
+    z-index: 0;
+    border-color: black;
+    outline: 0;
+    box-shadow: none;
+}
+
+.border-0 {
+    border: 10px !important;
+    border-color: blueviolet;
+}
+
+.accordion-flush .accordion-item:last-child {
+    border-bottom: 1px;
+}

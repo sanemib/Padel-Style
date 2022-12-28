@@ -1,0 +1,24 @@
+.back-button {
+    display: flex;
+    background-color: $color-principal;
+    text-decoration: none;
+	border-radius: 8px;
+	color: $color-font-color;
+	font-size: 16px;
+	padding: 5px 8px;
+    width: 5vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: $color-secundario;
+	background-image: none;
+	color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .back-button {
+        width: 15vw
+    }
+}
