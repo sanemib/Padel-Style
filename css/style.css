@@ -90,6 +90,9 @@ p {
     display: block;
     text-align: left;
   }
+  .responsive-f {
+    display: none !important;
+  }
 }
 .destacados {
   display: flex;
